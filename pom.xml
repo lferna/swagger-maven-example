@@ -18,8 +18,14 @@
                     <apiSources>
                       <apiSource>
                             <springmvc>false</springmvc>
-                            <locations>com.github.kongchen.swagger.sample.wordnik</locations>
-                            <schemes>http,https</schemes>
+                            <location>
+							com.github.kongchen.swagger.sample.wordnik
+							</location>
+							</locations>
+                            <schemes>
+							<scheme>http</scheme>
+							<scheme>https</scheme>
+							</schemes>
                             <host>petstore.swagger.wordnik.com</host>
                             <basePath>/api</basePath>
                             <!-- <info>
