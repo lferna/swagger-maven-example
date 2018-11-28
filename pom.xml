@@ -18,6 +18,7 @@
                     <apiSources>
                       <apiSource>
                             <springmvc>false</springmvc>
+							<locations>
                             <location>
 							com.github.kongchen.swagger.sample.wordnik
 							</location>
